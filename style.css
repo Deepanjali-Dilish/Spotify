@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #121212;
+}
+@font-face {
+    font-family: "SR";
+    src: url(/font/MixUI-Regular.woff2);
+}
+@font-face {
+    font-family: "SB";
+    src: url(/font/MixUI-Bold.woff2);
+}
+@font-face {
+    font-family: "SE";
+    src: url(/font/Azure-B.woff2);
+}
+@font-face {
+    font-family: "SV";
+    src: url(/font/Azure-B.woff2);
+}
+.header_all{
+    display: flex;
+    background-color: black;
+    /* padding: 16px;
+    height: 24px; */
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 11px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.header{
+    height: 56px;
+}
+.header_search{
+    height: 16px;
+    width: 16px;
+    padding-inline: 16px;
+    padding-top: 4px;
+} 
+.header_hamburger{
+    height: 24px;
+    width: 24px;
+    margin-left: 16px;
+}
+.header_buttons{
+    display: flex;
+}
+.header_button{
+    background: white;
+    border-radius: 999px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 7px 16px;
+    /* padding-block: 4px; */
+    /* padding-inline: 16px; */
+
+}
+/* .sub_headers{
+    padding-inline: 16px;
+} */
+.gap{
+    padding: 0px 16px;
+}
+.header_popular{
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+.header_popular h2{
+    font-size: 1.25rem;
+    font-family: "SB";
+    color: white;
+    font-weight: 700;
+}
+.popular_card img{
+    aspect-ratio: 1 / 1;
+    border-radius: 4px;
+    object-fit: cover;
+    inline-size: 152px;
+}
+.popular_text a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "SR";
+}
+.popular_card{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 8px;
+}
+.popular_card_second img{
+    aspect-ratio: 1 / 1;
+    border-radius: 4px;
+    object-fit: cover;
+    inline-size: 152px;
+}
+.popular_card_second{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 8px;
+}
+.popular_images{
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+/* .popular{
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 8px;
+    max-inline-size: 168px;
+    min-block-size: 48px;
+    padding-block-end: 8px;
+    padding-block-start: 8px;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+    row-gap: 8px;
+} */
