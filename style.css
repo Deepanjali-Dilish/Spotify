@@ -64,6 +64,11 @@ body{
 /* .sub_headers{
     padding-inline: 16px;
 } */
+ .header_button span {
+    font-family: "SR";
+    font-weight: 700;
+    font-size: 13px;
+ }
 .gap{
     padding: 0px 16px;
 }
@@ -112,6 +117,95 @@ body{
     display: flex;
     overflow: scroll;
     scrollbar-width: none;
+}
+.sub_footer{
+    padding: 8px 16px 40px;
+}
+.contents{
+   list-style: none;
+}
+.contents li{
+    margin: 8px 0px;
+    font-family: "SR";
+    color: #b3b3b3;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footers {
+    margin-top: 32px;
+}
+.inside_footer{
+    margin-bottom: 32px;
+}
+.inside_footer p {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: "SB";
+}
+.svg{
+    width: 16px;
+    height: 16px;
+}
+.footer_style {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+}
+.foot {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+.hr_line {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+.contents_footers {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.last_footer{
+    padding-top: 16px;
+}
+.contents_footers li{
+    font-family: "SR";
+    color: #b3b3b3;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+.spotify {
+    font-size: 0.875rem;
+    font-family: "SR";
+    color: #b3b3b3;
+    font-weight: 400;
+}
+.foot_english {
+    padding-top: 16px;
+}
+.foot_btn {
+    background-color: transparent;
+    border-radius:  9999px;
+    padding-inline-start: 15px;
+    padding-inline-end: calc(var(--encore-spacing-base, 16px) - 1px);
+    border: 1px solid var(--essential-subdued, #818181);
+    min-inline-size: 0px;
+    min-block-size: var(--encore-control-size-smaller, 32px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 0.8125rem;
+    font-family: "SR";
+    color: white;
+    font-weight: 700;
 }
 /* .popular{
     display: flex;
